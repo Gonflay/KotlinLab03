@@ -1,0 +1,12 @@
+plugins {
+    id("java-library")
+    kotlin("jvm")
+}
+
+dependencies {
+    testImplementation(kotlin("test"))
+}
+
+kotlin {
+    jvmToolchain(17)
+}
